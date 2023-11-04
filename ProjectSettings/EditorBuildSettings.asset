@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Samples/Lightship Maps SDK/0.4.0/Custom Map Layers Sample/CustomMapLayers.unity
+    guid: 7dbda0eeac4804246be539e75f10ee09
   m_configObjects:
     Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: cbad8e1759f949c42ba86c83637196b2,
       type: 2}
@@ -16,6 +19,8 @@ EditorBuildSettings:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 324bf4d5f0ae55c4db64d4d1cd0d57a6,
       type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 565e1e7f4594bed4fb253b05cbba14b6,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 407d9de3f6e621f408de1c1651ae7f61,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f34315019b72a544eb09973f08ee3e82,
       type: 2}
